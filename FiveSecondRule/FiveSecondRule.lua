@@ -120,9 +120,9 @@ do -- Private Scope
 
                     savePlayerPower()
 
-                    FiveSecondRule.mp5StartTime = GetTime() + 5
+                    -- FiveSecondRule.mp5StartTime = GetTime() + 5
 
-                    TickBar.tickbar:Hide()
+                    -- TickBar.tickbar:Hide()
                     StatusBar.statusbar:Show()
                 end
             end
